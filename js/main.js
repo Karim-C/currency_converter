@@ -16,6 +16,7 @@ var pagecontainer = $("#page-container")[0];
 var refreshbtn = $("#refreshbtn")[0];
 function changeUI() {
     pageheader.innerHTML = "You are " + age + " years old";
+    refreshbtn.style.display = "inline";
 }
 refreshbtn.addEventListener("click", function () {
     alert("Thank you. Your feedback has been sent to /dev/null");
