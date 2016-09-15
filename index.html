@@ -10,19 +10,20 @@
     <body>
         <div class="container" id="page-container">
             <h1 id="app-name">
-                <span class="glyphicon glyphicon-music"></span> Past Blast
+                 What's my age?
             </h1>
             
             <h2 id="page-header">
-                Get song recommendations based on your mood.
+                Submit your picture and find out! 
             </h2>
             <div class="btn-wrapper">
                 <label class="btn btn-info" for="my-file-selector">
                     <input id="my-file-selector" type="file">
                     Upload a picture of you
                 </label>
-                <button type="button" class="btn btn-info" id="refreshbtn">Another song please</button>
-            </div>
+                <h4 id="track-name"></h4>
+                <button type="button" class="btn btn-info" id="refreshbtn">Age is incorrect</button>
+            </div>           
         </div>
 
         <!--jQuery Script-->
@@ -31,5 +32,7 @@
         <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
         <!--Custom Script-->
         <script src="./js/main.js"></script>
+        <!--Sound Cloud-->
+        <script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
     </body>
 </html>
